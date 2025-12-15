@@ -1,0 +1,565 @@
+/* Global Styles */
+:root {
+    --bg: #f4f4f4;
+    --surface: #fff;
+    --text: #1a1a1a;
+    --muted: #555;
+    --accent: #50b3a2;
+    --accent-strong: #239b56;
+}
+
+[data-theme="dark"] {
+    --bg: #0f1720;
+    --surface: #0b1220;
+    --text: #e6eef6;
+    --muted: #b6c1cc;
+    --accent: #18b39a;
+    --accent-strong: #10a07f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background-color: var(--accent);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+}
+
+#theme-toggle {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.2);
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#theme-toggle[aria-pressed="true"] {
+    background: rgba(255,255,255,0.12);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #50b3a2;;  /* Dark green background for the navbar */
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+    border-bottom: 2px solid #50b3a2;  /* Green bottom border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Light shadow for depth */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;  /* Spacing between the menu items */
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #239b56;  /* Green text color */
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 12px 25px;  /* Padding for a rectangular button effect */
+    border-radius: 25px;  /* Rounded corners for a modern look */
+    background-color: white;  /* White background for links */
+    border: 2px solid #239b56;  /* Green border */
+    transition: all 0.3s ease;  /* Smooth transition for hover effects */
+}
+
+nav ul li a:hover {
+    background-color: #239b56;  /* Green background on hover */
+    color: white;  /* White text on hover */
+    transform: scale(1.1);  /* Slight scaling on hover for an interactive effect */
+}
+
+nav ul li a.active {
+    background-color: #239b56;  /* Green background for active state */
+    color: white;  /* White text for active link */
+    border: 2px solid #239b56;  /* Green border for active state */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        display: block;
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 0;
+        margin-bottom: 15px;  /* Vertical spacing for mobile */
+    }
+
+    nav ul li a {
+        padding: 12px 20px;  /* Adjust padding for smaller screens */
+        font-size: 1rem;
+    }
+}
+
+
+/* Make the header text white for better visibility */
+header h1 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+header p {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+
+/* Section Styles */
+.section {
+    padding: 60px 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* About Me Section Styling */
+#about {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-text {
+    text-align: left;
+    margin-right: 50px;
+    flex: 1;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.about-image img {
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .about-image img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+/* Education Section Styling */
+#education {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#education h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.education-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.education-icon {
+    margin-right: 20px;
+    font-size: 3rem;
+    color: #50b3a2; /* Matching the hover color from the navigation */
+}
+
+.education-details {
+    text-align: left;
+}
+
+.school-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.degree {
+    font-size: 1.2rem;
+    color: #777;
+    margin: 10px 0;
+}
+
+.education-description {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Skills Section Styling */
+#skills {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.skill-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.skill-card i {
+    font-size: 3rem;
+    color: #50b3a2; /* Green color for icons */
+    margin-bottom: 10px;
+}
+
+.skill-card span {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    #skills h2 {
+        font-size: 2rem;
+    }
+
+    .skill-card i {
+        font-size: 2.5rem;
+    }
+
+    .skill-card span {
+        font-size: 1rem;
+    }
+}
+
+
+/* Projects Section Styling */
+/* Projects Section Title Highlighting */
+/* Projects Section Title with Box Shadow and Border */
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    border: 2px solid #50b3a2;  /* Green border */
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Adds a shadow to the title */
+    font-weight: bold;
+}
+
+
+
+
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.project-card h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.view-project-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #50b3a2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.view-project-btn:hover {
+    background-color: #333;
+}
+
+/* Projects controls (filters + search) */
+.projects-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.filters {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+}
+
+.filter-btn.active {
+    background: #50b3a2;
+    color: #fff;
+    border-color: #50b3a2;
+}
+
+#project-search {
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 240px;
+}
+
+/* Tags */
+.tag {
+    display: inline-block;
+    background: #eef7f6;
+    border-radius: 12px;
+    padding: 4px 8px;
+    margin-right: 6px;
+    color: #2a7f75;
+    font-size: 0.9rem;
+}
+
+/* Modal styles */
+.modal {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.6);
+    z-index: 2000;
+}
+
+.modal.open {
+    display: flex;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 24px;
+    border-radius: 10px;
+    max-width: 720px;
+    width: 90%;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+/* Contact form */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 20px;
+    align-items: start;
+}
+
+#contact-form label { display:block; margin-top:10px; font-weight:600; }
+#contact-form input, #contact-form textarea { width:100%; padding:10px; border-radius:6px; border:1px solid #ddd; margin-top:6px }
+
+.contact-info { background:#fff; padding:20px; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.05) }
+
+@media (max-width: 768px) {
+    .contact-grid { grid-template-columns: 1fr; }
+    #project-search { width: 100%; }
+}
+
+/* Make sure it looks good on small screens */
+@media (max-width: 768px) {
+    #projects h2 {
+        font-size: 2rem;
+    }
+
+    .project-card h3 {
+        font-size: 1.5rem;
+    }
+
+    .project-card p {
+        font-size: 1rem;
+    }
+
+    .view-project-btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #9e2929;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}

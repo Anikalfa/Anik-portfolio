@@ -1,0 +1,21 @@
+{
+  "name": "anik-portfolio-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out",
+    "start": "next start -p 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}

@@ -1,0 +1,500 @@
+[00:00:01.111] Server  LOG      ✓ Ready in 733ms
+[00:00:26.860] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:36.719] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:10.318] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:15.780] Server  LOG      ✓ Compiled in 4ms
+[00:03:22.556] Server  LOG      ✓ Compiled in 5ms
+[00:03:28.749] Server  LOG      ✓ Compiled in 4ms
+[00:03:45.801] Server  LOG      ✓ Compiled in 8ms
+[00:03:49.754] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:55.935] Server  LOG      ✓ Compiled in 8ms
+[00:05:02.910] Server  LOG      ✓ Compiled in 4ms
+[00:07:36.970] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:55.349] Server  LOG      ✓ Compiled in 4ms
+[00:12:36.960] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:49.534] Server  LOG      ✓ Compiled in 5ms
+[00:16:12.201] Server  LOG      ✓ Compiled in 4ms
+[00:16:35.546] Server  LOG      ✓ Compiled in 5ms
+[00:16:43.603] Server  LOG      ✓ Compiled in 4ms
+[00:20:09.264] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:20:09.264] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:20:19.556] Server  LOG      ✓ Compiled in 9ms
+[00:20:19.659] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:20:20.254] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:20:28.038] Server  LOG      ✓ Compiled in 4ms
+[00:20:28.264] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:20:28.264] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:20:30.261] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:20:30.261] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:20:30.265] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:20:30.265] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:20:38.633] Server  LOG      ✓ Compiled in 7ms
+[00:20:38.740] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:20:39.251] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:20:51.256] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:20:51.256] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:20:58.262] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:00.264] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:00.264] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:00.264] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:03.137] Server  ERROR    ⨯ ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+
+
+[00:21:03.265] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:03.265] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:03.995] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:03.995] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:04.275] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:04.275] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:04.513] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:04.738] Browser ERROR   uncaughtError: Error: ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+
+
+[00:21:05.261] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:05.871] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:05.871] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:05.871] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:06.251] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:45.397] Server  ERROR    ⨯ ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+
+
+[00:21:45.624] Browser ERROR   uncaughtError: Error: ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+
+
+[00:21:46.257] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:46.258] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:46.773] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:46.773] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:46.773] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:47.252] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:47.252] Browser ERROR   ./my protfolio/app/layout.js:7:14
+Ecmascript file had an error
+   5 | }
+   6 |
+>  7 | export const metadata = {
+     |              ^^^^^^^^
+   8 |   title: 'Md. Anik Chowdhury — Portfolio',
+   9 |   description: 'Portfolio of Md. Anik Chowdhury',
+  10 | }
+
+the name `metadata` is defined multiple times
+[00:21:52.839] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:52.845] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:17.315] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:22.548] Server  LOG      ✓ Compiled in 6ms
+[00:25:45.576] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:46.902] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:18.750] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:26.571] Server  LOG      ✓ Compiled in 6ms
+[00:27:47.002] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:03.644] Server  LOG      ✓ Compiled in 6ms
+[00:28:19.240] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:26.599] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:20.209] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:57.644] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:02.778] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:59.064] Server  LOG      ✓ Compiled in 5ms
+[00:38:41.118] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:08.511] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:11.023] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:20.438] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

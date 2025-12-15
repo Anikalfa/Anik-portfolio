@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" aria-pressed="false" title="Toggle dark mode">🌙</button>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hello! I'm <strong>Md.Anik Chowdhury</strong>, a computer science enthusiast currently pursuing my Bachelor's degree in Computer Science & Engineering at East West University in Dhaka, Bangladesh. I have a strong foundation in programming and a keen interest in machine learning and software development. Throughout my academic journey, I've developed a solid understanding of computer science fundamentals, excelling in courses such as Object-Oriented Programming, Data Structures and Algorithms, Database Systems, Data Science, and Software Engineering. Apart from this, I also participate in competitive programming. As an active competitive programmer and ICPC participant, I've solved over 1,000 problems on various platforms and have participated in several national programming contests. Beyond coding, I contribute as an Undergraduate Teaching Assistant at East West University. I'm always eager to take on new challenges and contribute to innovative projects. My goal is to apply my machine learning and software engineering skills to build practical solutions that solve real-world problems.</p>
+            </div>
+            <div class="about-image">
+                <img src="C:\Users\User\Documents\anik document\my protfolio\images\d411fde6-0dbb-4c83-9b1f-188ca91d8a4d.jpg" alt="Md.Anik Chowdhury">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-card">
+                <div class="education-icon">
+                    
+                    <!-- You can replace this with an icon of your choice -->
+                </div>
+                <div class="education-details">
+                    <span class="school-name">East West University</span>
+                    <span class="degree">Bachelor's in Computer Science & Engineering</span>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   <section id="skills" class="skills-section">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="devicon-c-plain"></i>
+                <span>C</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-cplusplus-plain"></i>
+                <span>C++</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-java-plain"></i>
+                <span>Java</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-python-plain"></i>
+                <span>Python</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-javascript-plain"></i>
+                <span>JavaScript</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-pytorch-original"></i>
+                <span>PyTorch</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-tensorflow-original"></i>
+                <span>TensorFlow</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-opencv-plain"></i>
+                <span>OpenCV</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-html5-plain"></i>
+                <span>HTML</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-css3-plain"></i>
+                <span>CSS</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-php-plain"></i>
+                <span>PHP</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-bootstrap-plain"></i>
+                <span>Bootstrap</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-react-original"></i>
+                <span>React</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-nodejs-plain"></i>
+                <span>Node.js</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-mongodb-plain"></i>
+                <span>MongoDB</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-mysql-plain"></i>
+                <span>MySQL</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-sqlite-plain"></i>
+                <span>SQLite</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-oracle-original"></i>
+                <span>Oracle</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-git-plain"></i>
+                <span>Git</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-linux-plain"></i>
+                <span>Linux</span>
+            </div>
+            <div class="skill-card">
+                <i class="devicon-bash-plain"></i>
+                <span>Bash</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+
+            <div class="projects-controls">
+                <div class="filters" aria-label="Project filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                </div>
+                <input id="project-search" type="search" placeholder="Search projects..." aria-label="Search projects">
+            </div>
+
+            <div id="projects-grid" class="projects-grid" aria-live="polite">
+                <!-- Projects will be loaded here dynamically -->
+            </div>
+        </div>
+
+        <!-- Project modal -->
+        <div id="project-modal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title">
+            <div class="modal-content">
+                <button class="modal-close" aria-label="Close">×</button>
+                <h3 id="modal-title"></h3>
+                <p id="modal-desc"></p>
+                <div id="modal-tags"></div>
+                <a id="modal-link" class="view-project-btn" target="_blank" rel="noopener">View Project</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Experience</h2>
+            <p>Details about any relevant work, internships, or teaching assistant roles.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-grid">
+                <form id="contact-form">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="view-project-btn">Send</button>
+                    <p id="contact-feedback" role="status" aria-live="polite"></p>
+                </form>
+
+                <div class="contact-info">
+                    <p><strong>Email:</strong> chowdhury.anik2000@gmail.com</p>
+                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn Profile</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
