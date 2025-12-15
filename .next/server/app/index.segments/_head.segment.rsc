@@ -1,8 +1,0 @@
-1:"$Sreact.fragment"
-2:I[31945,["/_next/static/chunks/701dfb0ded525805.js"],"ViewportBoundary"]
-4:I[31945,["/_next/static/chunks/701dfb0ded525805.js"],"MetadataBoundary"]
-5:"$Sreact.suspense"
-7:I[22721,["/_next/static/chunks/701dfb0ded525805.js"],"IconMark"]
-0:{"buildId":"A6Drw_pGYMyw8ovAF8QiS","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],null]}],"loading":null,"isPartial":false}
-3:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-6:[["$","title","0",{"children":"Md. Anik Chowdhury — Portfolio"}],["$","meta","1",{"name":"description","content":"Portfolio of Md. Anik Chowdhury"}],["$","link","2",{"rel":"icon","href":"/images/IMG_3038.JPG"}],["$","$L7","3",{}]]
