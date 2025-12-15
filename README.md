@@ -74,6 +74,14 @@ Notes and variants:
 
 - This static export works if your Next.js app uses no server-only features (API routes, getServerSideProps, or other server runtime features). If you use dynamic/server features, consider deploying to Vercel instead.
 
+Custom domain and DNS
+
+- I deployed the site to GitHub Pages for you and added a `CNAME` pointing to `anikchowdhury.is-a.dev`.
+- To complete the custom domain, add a CNAME record at your DNS provider:
+  - Name/Host: `anikchowdhury`
+  - Value/Target: `Anikalfa.github.io`
+- After DNS propagates (minutes → hours), `https://anikchowdhury.is-a.dev` should serve your site. You can also check the Pages page in your repository settings — the Pages status will show the custom domain once GitHub verifies it.
+
 Troubleshooting:
 - If `next export` complains about images, `next.config.js` in this project disables Next image optimization for static export by setting `images.unoptimized = true`.
 - `npm run deploy` will create and push a `gh-pages` branch — ensure your local Git repo has a remote origin and you have permission to push.
