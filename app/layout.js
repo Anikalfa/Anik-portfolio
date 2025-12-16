@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
                 </ul>
               </nav>
 
-              <a href="/CV-Anik-Chowdhury.html" download className="view-project-btn secondary">Download CV</a>
+              <a href="/Anik_Resume.pdf" download className="view-project-btn secondary">Download CV</a>
             </div>
           </div>
         </header>

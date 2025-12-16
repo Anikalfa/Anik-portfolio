@@ -15,7 +15,7 @@ export default function Page() {
             <div className="subtitle">Computer Science Student at East West University</div>
             <h2 style={{marginTop:18}}>About</h2>
             <p style={{color:'var(--muted)'}}>Hello! I'm a computer science student with interest in machine learning and software engineering. I participate in competitive programming and work on projects involving web applications and ML models.</p>
-            <p style={{marginTop:12}}><a href="/CV-Anik-Chowdhury.html" download className="view-project-btn">Download CV</a></p>
+            <p style={{marginTop:12}}><a href="/Anik_Resume.pdf" download className="view-project-btn">Download CV</a></p>
           </div>
         </div>
       </section>

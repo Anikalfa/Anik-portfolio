@@ -15,7 +15,7 @@ npm run dev
 
 - To add projects edit `data/projects.json`. Update the `image` path to point to `/images/your-image.svg` (place images in `public/images`).
 
-- A sample CV is available at `/CV-Anik-Chowdhury.html`; replace it with your PDF at `public/CV-Anik-Chowdhury.pdf` if you prefer. A "Download CV" button is in the header.
+- A sample CV is available at `/Anik_Resume.pdf`; replace it with your PDF at `public/Anik_Resume.pdf` if you prefer. A "Download CV" button is in the header.
 
 - To enable the contact form, set an endpoint (e.g., Formspree) in the client where you handle submissions.
 
