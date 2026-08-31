@@ -1,0 +1,68 @@
+[
+  {
+    "id": "proj-bangla-recommendation",
+    "title": "Bangla Book Recommendation",
+    "description": "A graph-based recommendation system for Bangla literature, enabling more accurate and personalized book discovery.",
+    "details": "Developed using a multi-entity book graph dataset to power advanced recommendation models. Focuses on improving user experience through intelligent personalization. Dataset: https://github.com/backlashblitz/Bangla-Book-Recommendation-Dataset",
+    "tags": ["machine-learning", "recommendation-system", "graph", "nlp"],
+    "category": "ml-ai",
+    "icon": "🧠",
+    "image": "/images/Bookrecommendations.png",
+    "link": "https://github.com/backlashblitz/Bangla-Book-Recommendation-Dataset"
+  },
+  {
+    "id": "proj-brazilian-ecommerce-data-warehouse",
+    "title": "Brazilian E-Commerce Data Warehouse & Analytics Project",
+    "description": "A modern data warehouse built with SQL Server, featuring T-SQL & SSIS ETL pipelines, automated job scheduling, and a Power BI analytics layer.",
+    "details": "End-to-end data warehousing solution following Medallion Architecture (Bronze, Silver, Gold layers), built on the Brazilian E-Commerce (Olist) dataset. Ingests raw ERP and CRM data from CSV sources, cleanses and normalizes it in the Silver layer, and models it into a star schema in the Gold layer. Includes a parallel SSIS implementation (Bronze/Silver/Master control flow packages) deployed on Azure-SSIS Integration Runtime, a SQL Server Agent job for automated daily scheduling, and both Power BI and Tableau dashboards covering revenue, order/review analytics, product performance, and regional breakdowns.",
+    "tags": ["sql-server", "ssis", "etl", "power-bi", "tableau", "data-warehouse", "t-sql", "azure"],
+    "category": "data-engineering",
+    "icon": "📊",
+    "image": "/images/brazilian.png",
+    "link": "https://github.com/Anikalfa/brazilian-ecommerce-dwh"
+  },
+  {
+    "id": "proj-lenden-banking",
+    "title": "LenDen Online Mobile Banking",
+    "description": "A web-based mobile banking application enabling secure account management, fund transfers, and transaction tracking.",
+    "details": "Built with HTML, CSS, and JavaScript (React.js) on the frontend, PHP and MySQL (XAMPP) on the backend, with session-based authentication and optional JWT support.",
+    "tags": ["web", "php", "mysql", "react", "banking"],
+    "category": "fullstack",
+    "icon": "💳",
+    "image": "/images/cover.jpg",
+    "link": "https://github.com/Anikalfa/LenDen-Online-Mobile-Banking-App"
+  },
+  {
+    "id": "proj-ml",
+    "title": "Object Detection with SSL & Semi-Supervised Learning",
+    "description": "YOLOv10, YOLOv11, and YOLOv12 Object Detection with SSL and Semi-Supervised Learning.",
+    "details": "Data preprocessing, model training.",
+    "tags": ["machine learning", "python", "pytorch"],
+    "category": "ml-ai",
+    "icon": "🤖",
+    "image": "/images/fish_detect.jpg",
+    "link": "https://github.com/Anikalfa/YOLOvX-SSL-Object-Detection"
+  },
+  {
+    "id": "proj-chat",
+    "title": "Real-time Chat App",
+    "description": "A simple chat application with sockets and real-time messaging.",
+    "details": "Full-stack app using Node.js, Socket.io, and a minimalist frontend.",
+    "tags": ["node.js", "sockets", "realtime"],
+    "category": "fullstack",
+    "icon": "💬",
+    "image": "/images/chat-app.png",
+    "link": "https://github.com/Anikalfa/Realtime-Chat-App"
+  },
+  {
+    "id": "proj-brazilian-ecommerce-review-sentiment-analysis",
+    "title": "Brazilian E-Commerce Review Sentiment Analysis",
+    "description": "Binary sentiment classification of Olist customer reviews, benchmarking 45+ model runs across classical, transformer, and deep-learning families to power a customer-service triage tool.",
+    "details": "Classifies 33,471 labeled Olist reviews as positive/negative, comparing three published approaches: classical ML (9 classifiers × 4 vectorizers), fine-tuned transformers (BERTimbau, XLM-R, m-BERT, DistilBERT-multilingual), and deep sequence models (LSTM/BiLSTM/CNN-LSTM/CNN-BiLSTM with Portuguese fastText embeddings). Fine-tuned BERTimbau won overall (F1 0.9471), while a simple count-bigram + SGD classifier came within striking distance (F1 0.9350) at a fraction of the cost. The best classical model is deployed against the full review dataset to build a negative-review priority queue for CS agents and a category/seller sentiment trend dashboard, with data-leakage safeguards (deduplication, train-only fitting, held-out test isolation) baked into the pipeline. Built on top of a companion medallion-architecture data warehouse project.",
+    "tags": ["python", "nlp", "sentiment-analysis", "machine-learning", "transformers", "bert", "deep-learning", "scikit-learn"],
+    "category": "ml-ai",
+    "icon": "🧠",
+    "image": "/images/sentiment.png",
+    "link": "https://github.com/Anikalfa/Brazilian-E-commerce-Review-Sentiment-Analysis"
+  }
+]
